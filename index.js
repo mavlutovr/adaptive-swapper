@@ -1,3 +1,63 @@
+let originalPlaceId = 0;
+
+
+
+$.fn.appendFromOriginalPlaceTo = function ($to) {
+  $(this).each(function () {
+
+    const element = $(this);
+    saveOriginalPlace(element);
+
+
+    element.appendTo($to);
+  });
+
+  return this;
+};
+
+
+
+$.fn.prependFromOriginalPlaceTo = function ($to) {
+  $(this).each(function () {
+
+    const element = $(this);
+    saveOriginalPlace(element);
+
+
+    element.appendTo($to);
+  });
+
+  return this;
+};
+
+
+
+$.fn.toOriginalPlace = function () {
+  $(this).each(function () {
+
+    const element = $(this);
+    const id = element.data('original-place-id');
+    const originalPlace = $('#js-original-place-' + id);
+    originalPlace.after(element);
+  });
+
+  return this;
+};
+
+
+const saveOriginalPlace = element => {
+
+  if (!element.data('original-place-id')) {
+    originalPlaceId++;
+
+    const placeHolder = $('<div id="js-original-place-' + originalPlaceId + '"></div>').hide();
+    element.data('original-place-id', originalPlaceId);
+
+    element.after(placeHolder);
+  }
+};
+
+
 export default structure => {
 
     let elements = {};
