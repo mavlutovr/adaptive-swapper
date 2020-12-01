@@ -1,6 +1,6 @@
 {
   "name": "adaptive-swapper",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Simple changing the posiiton of elements (tags) depends on the width of the window.",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,7 @@
   },
   "homepage": "https://github.com/mavlutovr/adaptive-swapper",
   "keywords": [
-    "adaptive swapper tags position"
+    "adaptive swapper tags position front-end jquery javascript"
   ],
   "author": "mavlutovr",
   "license": "MIT",
