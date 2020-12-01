@@ -1,13 +1,15 @@
 # adaptive-swapper
-Simple changing the posiiton of elements (tags) depends on the width of the window.
+Simple changing the position of elements (tags) depends on the width of the window.
+
+![](https://i.imgur.com/KYXiZzR.gif)
 
 ## Demo
 
-https://webdeveloper.pro/adaptive-swapper-demo (coming soon)
+https://webdeveloper.pro/demo/adaptive-swapper/demo.html
 
 ## Check first
 
-Perhaps you can use css. For example grid.
+Perhaps you can use CSS. For example GRID.
 
 ## Install
 
