@@ -1,0 +1,20 @@
+{
+  "name": "adaptive-swapper",
+  "version": "0.0.1",
+  "description": "Simple changing the posiiton of elements (tags) depends on the width of the window.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mavlutovr/adaptive-swapper.git"
+  },
+  "homepage": "https://github.com/mavlutovr/adaptive-swapper",
+  "keywords": [
+    "adaptive swapper tags position"
+  ],
+  "author": "mavlutovr",
+  "license": "MIT",
+  "readmeFilename": "README.md"
+}
