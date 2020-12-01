@@ -10,7 +10,7 @@ https://webdeveloper.pro/adaptive-swapper-demo (coming soon)
 Git
 
 ```
-git+https://github.com/mavlutovr/adaptive-swapper.git
+npm install https://github.com/mavlutovr/adaptive-swapper.git --save
 ```
 
 Npm (coming soon)
