@@ -38,9 +38,9 @@ export default structure => {
 
       if (structureWidth) {
 
-        let structure = structure[structureWidth];
+        let structureOfWidth = structure[structureWidth];
 
-        $.each(structure, (containerSelector, childIds) => {
+        $.each(structureOfWidth, (containerSelector, childIds) => {
 
           let $container = getElement(containerSelector);
 
