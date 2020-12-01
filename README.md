@@ -5,6 +5,10 @@ Simple changing the posiiton of elements (tags) depends on the width of the wind
 
 https://webdeveloper.pro/adaptive-swapper-demo (coming soon)
 
+## Check first
+
+Perhaps you can use css. For example grid.
+
 ## Install
 
 1. Install jQuery
