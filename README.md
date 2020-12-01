@@ -23,7 +23,7 @@ Perhaps you can use CSS. For example GRID.
    npm install https://github.com/mavlutovr/adaptive-swapper.git --save
    ```
 
-   Npm (coming soon)
+   Npm
 
    ```
    npm install adaptive-swapper --save
