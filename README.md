@@ -7,17 +7,21 @@ https://webdeveloper.pro/adaptive-swapper-demo (coming soon)
 
 ## Install
 
-Git
+1. Install jQuery
 
-```
-npm install https://github.com/mavlutovr/adaptive-swapper.git --save
-```
+2. Install adaptive-swapper
 
-Npm (coming soon)
+   Git
 
-```
-npm install adaptive-swapper --save
-```
+   ```
+   npm install https://github.com/mavlutovr/adaptive-swapper.git --save
+   ```
+
+   Npm (coming soon)
+
+   ```
+   npm install adaptive-swapper --save
+   ```
 
 ## Setup
 
@@ -46,7 +50,7 @@ adaptiveSwapper({
         ]
     },
 
-	// The position of the elements for the width 480 or less of the window
+    // The position of the elements for the width 480 or less of the window
     480: {
 
         // Header
