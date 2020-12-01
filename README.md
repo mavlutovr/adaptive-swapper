@@ -3,19 +3,29 @@ Simple changing the posiiton of elements (tags) depends on the width of the wind
 
 ## Demo
 
-https://webdeveloper.pro/adaptive-swapper-demo
+https://webdeveloper.pro/adaptive-swapper-demo (coming soon)
 
 ## Install
+
+Git
+
+```
+git+https://github.com/mavlutovr/adaptive-swapper.git
+```
+
+Npm (coming soon)
 
 ```
 npm install adaptive-swapper --save
 ```
 
-## How to use
+## Setup
 
 ```javascript
 import adaptiveSwapper from 'adaptive-swapper';
 ```
+
+## Usage
 
 ```javascript
 adaptiveSwapper({
@@ -57,5 +67,6 @@ adaptiveSwapper({
 });
 ```
 
+## License
 
-
+[MIT License](https://github.com/mavlutovr/adaptive-swapper/blob/main/LICENSE)
