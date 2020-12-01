@@ -2,36 +2,6 @@ let originalPlaceId = 0;
 
 
 
-$.fn.appendFromOriginalPlaceTo = function ($to) {
-  $(this).each(function () {
-
-    const element = $(this);
-    saveOriginalPlace(element);
-
-
-    element.appendTo($to);
-  });
-
-  return this;
-};
-
-
-
-$.fn.prependFromOriginalPlaceTo = function ($to) {
-  $(this).each(function () {
-
-    const element = $(this);
-    saveOriginalPlace(element);
-
-
-    element.appendTo($to);
-  });
-
-  return this;
-};
-
-
-
 $.fn.toOriginalPlace = function () {
   $(this).each(function () {
 
@@ -97,9 +67,7 @@ export default structure => {
 
 
       if (structureWidth) {
-
         let structureOfWidth = structure[structureWidth];
-
         $.each(structureOfWidth, (containerSelector, childIds) => {
 
           let $container = getElement(containerSelector);
