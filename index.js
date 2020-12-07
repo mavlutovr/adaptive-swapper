@@ -78,7 +78,7 @@ export default structure => {
 
             i -= fixI;
 
-            if (childSelector === '*') throw new Error('adaptive-swapper / Check, maybe some element is not exists on the page');
+            //if (childSelector === '*') throw new Error('adaptive-swapper / Check, maybe some element is not exists on the page');
 
             let $currentElement = $container.children(':eq(' + i + ')');
             if (!$currentElement.is(childSelector)) {
