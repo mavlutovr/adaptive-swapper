@@ -17,6 +17,8 @@ $.fn.toOriginalPlace = function () {
 
 const saveOriginalPlace = element => {
 
+  if (!element.length) throw new Error('Element is not exists');
+
   if (!element.data('original-place-id')) {
     originalPlaceId++;
 
@@ -83,7 +85,12 @@ export default structure => {
 
               if ($targetElement.length) {
 
-                saveOriginalPlace($targetElement);
+                try {
+                  saveOriginalPlace($targetElement);
+                }
+                catch(e) {
+                  throw new Error(e.message + ': ' + childSelector);
+                }
 
                 if (i) {
                   $container.children(':eq(' + (i - 1) + ')').after($targetElement);
