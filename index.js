@@ -17,7 +17,7 @@ $.fn.toOriginalPlace = function () {
 
 const saveOriginalPlace = element => {
 
-  if (!element.length) throw new Error('Element is not exists');
+  if (!element.length) throw new Error('adaptive-swapper / Element is not exists');
 
   if (!element.data('original-place-id')) {
     originalPlaceId++;
@@ -78,6 +78,8 @@ export default structure => {
 
             i -= fixI;
 
+            if (childSelector === '*') throw new Error('adaptive-swapper / Check, maybe some element is not exists on the page');
+
             let $currentElement = $container.children(':eq(' + i + ')');
             if (!$currentElement.is(childSelector)) {
 
@@ -89,7 +91,6 @@ export default structure => {
                   saveOriginalPlace($targetElement);
                 }
                 catch(e) {
-                  console.log('$targetElement', $targetElement);
                   throw new Error(e.message + ': ' + childSelector);
                 }
 
