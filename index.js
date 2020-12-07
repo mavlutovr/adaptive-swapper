@@ -89,6 +89,7 @@ export default structure => {
                   saveOriginalPlace($targetElement);
                 }
                 catch(e) {
+                  console.log('$targetElement', $targetElement);
                   throw new Error(e.message + ': ' + childSelector);
                 }
 
