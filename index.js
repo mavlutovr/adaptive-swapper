@@ -1,6 +1,8 @@
 let originalPlaceId = 0;
 
 
+const $ = jQuery;
+
 
 $.fn.toOriginalPlace = function () {
   $(this).each(function () {
