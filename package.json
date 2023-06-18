@@ -1,6 +1,6 @@
 {
   "name": "adaptive-swapper",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple changing the posiiton of elements (tags) depends on the width of the window.",
   "main": "index.js",
   "scripts": {
