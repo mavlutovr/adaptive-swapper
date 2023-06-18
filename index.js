@@ -1,7 +1,7 @@
 let originalPlaceId = 0;
 
 
-const $ = window.jQuery;
+const $ = global.jQuery || window.jQuery;
 
 
 $.fn.toOriginalPlace = function () {
